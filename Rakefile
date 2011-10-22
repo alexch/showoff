@@ -6,7 +6,7 @@ rescue LoadError
   abort "Please `gem install mg`"
 end
 
-MG.new("showoff.gemspec")
+MG.new("showoff-alexch.gemspec")
 
 #
 # Tests

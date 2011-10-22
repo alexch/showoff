@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name              = "showoff-alexch"
   s.version           = SHOWOFF_VERSION
   s.date              = "2011-11-23"
-  s.summary           = "The best damn presentation software a developer could ever love."
+  s.summary           = "Alex's version of the best damn presentation software a developer could ever love."
   s.homepage          = "http://github.com/alexch/showoff"
   s.email             = ["schacon@gmail.com", "alex@stinky.com"]
   s.authors           = ["Scott Chacon", "Alex Chaffee"]
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
 
   The idea is that you setup your slide files in section subdirectories and
   then startup the showoff server in that directory.  It will read in your
-  showoff.json file for which sections go in which order and then will give 
+  showoff.json file for which sections go in which order and then will give
   you a URL to present from.
   desc
 end
