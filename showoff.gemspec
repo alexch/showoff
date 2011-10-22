@@ -2,13 +2,13 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require 'showoff/version'
 
 Gem::Specification.new do |s|
-  s.name              = "showoff"
+  s.name              = "showoff-alexch"
   s.version           = SHOWOFF_VERSION
-  s.date              = "2011-09-10"
+  s.date              = "2011-11-23"
   s.summary           = "The best damn presentation software a developer could ever love."
-  s.homepage          = "http://github.com/schacon/showoff"
-  s.email             = "schacon@gmail.com"
-  s.authors           = ["Scott Chacon"]
+  s.homepage          = "http://github.com/alexch/showoff"
+  s.email             = ["schacon@gmail.com", "alex@stinky.com"]
+  s.authors           = ["Scott Chacon", "Alex Chaffee"]
   s.has_rdoc          = false
   s.require_path      = "lib"
   s.executables       = %w( showoff )
