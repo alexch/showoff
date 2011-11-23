@@ -25,10 +25,14 @@ Gem::Specification.new do |s|
   s.add_dependency      "parslet"
   s.add_development_dependency "mg"
   s.description       = <<-desc
-  (This is Alex's version of Showoff, so I can share my presentations
+  [This is Alex's version of Showoff, so I can share my presentations
   without waiting for pull requests and updates from busy Scott. It
   installs a binary called "showoff" which overwrites the official one,
-  so if you install this hack, be careful about updates.)
+  so if you install this hack, be careful about updates. Also, do this:
+
+    gem uninstall -a showoff
+
+  to make sure we don't have class load path conflicts.]
 
   ShowOff is a Sinatra web app that reads simple configuration files for a
   presentation.  It is sort of like a Keynote web app engine.  I am using it
