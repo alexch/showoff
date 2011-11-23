@@ -35,11 +35,14 @@ class ShowOff < Sinatra::Application
   set :pres_file, 'showoff.json'
   set :split, false
 
+  puts("[Alex Chaffee's custom version of showoff]")
+
   def initialize(app=nil)
     super(app)
     @logger = Logger.new(STDOUT)
     @logger.formatter = proc { |severity,datetime,progname,msg| "#{progname} #{msg}\n" }
     @logger.level = settings.verbose ? Logger::DEBUG : Logger::WARN
+
 
     dir = File.expand_path(File.join(File.dirname(__FILE__), '..'))
     @logger.debug(dir)
